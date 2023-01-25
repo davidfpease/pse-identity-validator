@@ -1,0 +1,7 @@
+{
+  "@driftt/generator-atmos": {
+    "serviceName": "identity-validator",
+    "atmosModules": [],
+    "atmosApply": false
+  }
+}

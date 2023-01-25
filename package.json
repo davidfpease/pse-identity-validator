@@ -1,0 +1,26 @@
+{
+  "name": "pse-identity-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfpease/pse-identity-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidfpease/pse-identity-validator/issues"
+  },
+  "homepage": "https://github.com/davidfpease/pse-identity-validator#readme",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.10.1",
+    "aws-sdk": "^2.1301.0",
+    "axios": "^1.2.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
