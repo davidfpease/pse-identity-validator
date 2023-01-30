@@ -4,7 +4,9 @@ const { getDriftContact } = require('./drift/getDriftContact');
 const codeTable = require('./dynamo/codeTable');
 
 const createEmailCode = async (req, res) => {
-  res.status(200).json({});
+  res.status(200).json({"setContactAttributes": {
+		"attribute1": "test value"
+	}});
   let code = '';
   for (let i = 0; i < 6; i++) {
     code += Math.floor(Math.random() * 10);
