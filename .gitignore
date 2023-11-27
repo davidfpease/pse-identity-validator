@@ -4,4 +4,4 @@ package-lock.json
 atmos/tmp/*
 atmos/atmos.log
 .DS_store
-./atmos
+atmos
