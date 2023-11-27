@@ -63,7 +63,7 @@
                 "bodyTemplate": "{\"email\": \"{{ email }}\"}",
                 "contentType": "application/json"
               },
-              "type": "STATIC"
+              "type": "STANDARD"
             }
           },
           {
@@ -95,7 +95,7 @@
                 "bodyTemplate": "{\"code\": \"{{ code }}\", \"orgId\": \"{{ orgId }}\", \"conversationId\": \"{{ conversationId }}\", \"contactId\": \"{{ contactId }}\"}",
                 "contentType": "application/json"
               },
-              "type": "DYNAMIC"
+              "type": "STANDARD"
             }
           },
           {

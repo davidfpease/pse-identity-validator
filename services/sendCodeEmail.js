@@ -1,5 +1,3 @@
-const axios = require('axios');
-
 const sendCodeEmail = async (email, code) => {
 
   const sparkpostApiKey = process.env.SPARKPOST_API_KEY;
